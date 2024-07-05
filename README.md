@@ -17,3 +17,5 @@ npm install
 ```sh
 npm run dev -- --host ip
 ```
+
+* Admin -> Vite Config line no. 19: Change ip
