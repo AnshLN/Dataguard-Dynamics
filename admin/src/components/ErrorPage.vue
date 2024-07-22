@@ -1,8 +1,11 @@
 <template>
+  <div class="test">
     <div>
-      <h1 class="text-light">404 - Page Not Found</h1>
-      <p class="text-light">The page you are looking for does not exist.</p>
+      <h1 class="">404 - Page Not Found</h1>
+      <p class="">The page you are looking for does not exist.</p>
+      <router-link class="theme-link" to="/admin/dashboard">Please Click Here to Continue for Dashboard</router-link>
     </div>
+  </div>
   </template>
   
   <script>
@@ -11,5 +14,10 @@
   }
   </script>
 
-  <style scoped>
+<style scoped>
+.test{
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+}
 </style>

@@ -193,6 +193,9 @@ router.beforeEach(async (to, from, next) => {
         if (!savedUser) {
             next('/admin/masterlogin');
           }
+          else if(to.path === '/' || to.path === '' || to.path === '/admin/' || to.path === '/admin'){
+            next('/admin/dashboard');
+          }
           else{
             next();
           }
