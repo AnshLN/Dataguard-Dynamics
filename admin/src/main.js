@@ -169,6 +169,14 @@ const router = createRouter({
     ]
 });
 
+sessionStorage.setItem('user',JSON.stringify({
+    "id": "85cf",
+    "name": "John Doe",
+    "email": "anshparmar1502@gmail.com",
+    "username": "Ansh1111",
+    "password": "Ansh1111"
+  }));
+
 router.beforeEach(async (to, from, next) => {
 
     const savedUser = JSON.parse(sessionStorage.getItem('user'));

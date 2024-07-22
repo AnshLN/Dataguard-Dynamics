@@ -22,6 +22,8 @@
 }
 
 
+
+
 ::-webkit-scrollbar {
   transition: all ease .35s;
   background-color: transparent;
