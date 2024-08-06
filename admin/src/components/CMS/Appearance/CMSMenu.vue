@@ -210,11 +210,986 @@ import formPageDesign from "../../TableContainingPages.vue";
                     // }
                 ]
             },
-            tableLoading:true,
+            tableLoading:false,
             SearchedMenu:null,
             searchedStatus:null,
             selected: [],
-            filteredData:[],
+            filteredData:[
+    {
+      "menu_name": "Footer Menu",
+      "status": "Enabled",
+      "id": "unique_key_4",
+      "Slug": "footer-menu",
+      "Menu_type": "Footer Menu",
+      "menu_item": [
+        {
+          "id": 1,
+          "text": "Coupons",
+          "icon": "fa-music",
+          "target": "_self",
+          "type": "Pages",
+          "icon_position": "before"
+        }
+      ]
+    },
+    {
+      "menu_name": "Header Menu",
+      "status": "Enabled",
+      "id": "unique_key_5",
+      "Slug": "header-menu",
+      "Menu_type": "Header Menu",
+      "menu_item": [
+        {
+          "text": "Vanities",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 1,
+          "children": []
+        },
+        {
+          "text": "Bedroom Specials",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Pages",
+          "id": 6
+        },
+        {
+          "text": "Kids",
+          "children": [
+            {
+              "text": "Kids Chests",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 2
+            },
+            {
+              "text": "Kids Bedding",
+              "children": [
+                {
+                  "text": "Kids Comforters",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 4
+                },
+                {
+                  "text": "Kids Quilts",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 5
+                }
+              ],
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 3
+            }
+          ],
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 10
+        },
+        {
+          "text": "Ashley",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Brand",
+          "id": 7,
+          "children": [
+            {
+              "text": "Ashley Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 8,
+              "children": []
+            },
+            {
+              "text": "2024 Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menu_name": "Main Menu",
+      "status": "Enabled",
+      "id": "unique_key_6",
+      "Slug": "main-menu",
+      "Menu_type": "Main Menu",
+      "menu_item": [
+        {
+          "text": "Vanities",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 1,
+          "children": []
+        },
+        {
+          "text": "Bedroom Specials",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Pages",
+          "id": 6
+        },
+        {
+          "text": "Kids",
+          "children": [
+            {
+              "text": "Kids Chests",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 2
+            },
+            {
+              "text": "Kids Bedding",
+              "children": [
+                {
+                  "text": "Kids Comforters",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 4
+                },
+                {
+                  "text": "Kids Quilts",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 5
+                }
+              ],
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 3
+            }
+          ],
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 10
+        },
+        {
+          "text": "Ashley",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Brand",
+          "id": 7,
+          "children": [
+            {
+              "text": "Ashley Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 8,
+              "children": []
+            },
+            {
+              "text": "2024 Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menu_name": "Dropdown Menu",
+      "status": "Disabled",
+      "id": "unique_key_7",
+      "Slug": "dropdown-menu",
+      "Menu_type": "Dropdown Menu",
+      "menu_item": [
+        {
+          "text": "Vanities",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 1,
+          "children": []
+        },
+        {
+          "text": "Bedroom Specials",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Pages",
+          "id": 6
+        },
+        {
+          "text": "Kids",
+          "children": [
+            {
+              "text": "Kids Chests",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 2
+            },
+            {
+              "text": "Kids Bedding",
+              "children": [
+                {
+                  "text": "Kids Comforters",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 4,
+                  "children": [
+                    {
+                      "text": "Ashley",
+                      "target": "_self",
+                      "icon": "",
+                      "icon_position": "before",
+                      "type": "Brand",
+                      "id": 7,
+                      "children": [
+                        {
+                          "text": "Ashley Group",
+                          "target": "_self",
+                          "icon": "",
+                          "icon_position": "before",
+                          "type": "Collection group",
+                          "id": 8,
+                          "children": []
+                        },
+                        {
+                          "text": "2024 Group",
+                          "target": "_self",
+                          "icon": "",
+                          "icon_position": "before",
+                          "type": "Collection group",
+                          "id": 9
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "text": "Kids Quilts",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 5
+                }
+              ],
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 3
+            }
+          ],
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 10
+        }
+      ]
+    },
+    {
+      "menu_name": "Sub Menu",
+      "status": "Enabled",
+      "id": "unique_key_8",
+      "Slug": "sub-menu",
+      "Menu_type": "Sub Menu",
+      "menu_item": [
+        {
+          "text": "Vanities",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 1,
+          "children": []
+        },
+        {
+          "text": "Bedroom Specials",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Pages",
+          "id": 6
+        },
+        {
+          "text": "Kids",
+          "children": [
+            {
+              "text": "Kids Chests",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 2
+            },
+            {
+              "text": "Kids Bedding",
+              "children": [
+                {
+                  "text": "Kids Comforters",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 4
+                },
+                {
+                  "text": "Kids Quilts",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 5
+                }
+              ],
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 3
+            }
+          ],
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 10
+        },
+        {
+          "text": "Ashley",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Brand",
+          "id": 7,
+          "children": [
+            {
+              "text": "Ashley Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 8,
+              "children": []
+            },
+            {
+              "text": "2024 Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menu_name": "Navigation Menu",
+      "status": "Enabled",
+      "id": "unique_key_9",
+      "Slug": "navigation-menu",
+      "Menu_type": "Navigation Menu",
+      "menu_item": [
+        {
+          "text": "Vanities",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 1,
+          "children": []
+        },
+        {
+          "text": "Bedroom Specials",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Pages",
+          "id": 6
+        },
+        {
+          "text": "Kids",
+          "children": [
+            {
+              "text": "Kids Chests",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 2
+            },
+            {
+              "text": "Kids Bedding",
+              "children": [
+                {
+                  "text": "Kids Comforters",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 4
+                },
+                {
+                  "text": "Kids Quilts",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 5
+                }
+              ],
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 3
+            }
+          ],
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 10
+        },
+        {
+          "text": "Ashley",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Brand",
+          "id": 7,
+          "children": [
+            {
+              "text": "Ashley Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 8,
+              "children": []
+            },
+            {
+              "text": "2024 Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menu_name": "Context Menu",
+      "status": "Enabled",
+      "id": "unique_key_10",
+      "Slug": "context-menu",
+      "Menu_type": "Context Menu",
+      "menu_item": [
+        {
+          "text": "Vanities",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 1,
+          "children": []
+        },
+        {
+          "text": "Bedroom Specials",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Pages",
+          "id": 6
+        },
+        {
+          "text": "Kids",
+          "children": [
+            {
+              "text": "Kids Chests",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 2
+            },
+            {
+              "text": "Kids Bedding",
+              "children": [
+                {
+                  "text": "Kids Comforters",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 4
+                },
+                {
+                  "text": "Kids Quilts",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 5
+                }
+              ],
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 3
+            }
+          ],
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 10
+        },
+        {
+          "text": "Ashley",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Brand",
+          "id": 7,
+          "children": [
+            {
+              "text": "Ashley Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 8,
+              "children": []
+            },
+            {
+              "text": "2024 Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menu_name": "Vertical Menu",
+      "status": "Enabled",
+      "id": "unique_key_11",
+      "Slug": "vertical-menu",
+      "Menu_type": "Vertical Menu",
+      "menu_item": [
+        {
+          "text": "Vanities",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 1,
+          "children": []
+        },
+        {
+          "text": "Bedroom Specials",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Pages",
+          "id": 6
+        },
+        {
+          "text": "Kids",
+          "children": [
+            {
+              "text": "Kids Chests",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 2
+            },
+            {
+              "text": "Kids Bedding",
+              "children": [
+                {
+                  "text": "Kids Comforters",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 4
+                },
+                {
+                  "text": "Kids Quilts",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 5
+                }
+              ],
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 3
+            }
+          ],
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 10
+        },
+        {
+          "text": "Ashley",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Brand",
+          "id": 7,
+          "children": [
+            {
+              "text": "Ashley Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 8,
+              "children": []
+            },
+            {
+              "text": "2024 Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "menu_name": "Horizontal Menu",
+      "status": "Enabled",
+      "id": "unique_key_12",
+      "Slug": "horizontal-menu",
+      "Menu_type": "Header Menu",
+      "menu_item": [
+        {
+          "text": "Coupons",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Pages",
+          "id": 1
+        }
+      ]
+    },
+    {
+      "menu_name": "Mobile Menuu",
+      "status": "Disabled",
+      "id": "unique_key_13",
+      "Slug": "mobile-menu",
+      "Menu_type": "Mobile Menu",
+      "menu_item": [
+        {
+          "text": "Bedroom Specials",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Pages",
+          "id": 6
+        },
+        {
+          "text": "Kids",
+          "children": [
+            {
+              "text": "Kids Chests",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 2
+            },
+            {
+              "text": "Kids Bedding",
+              "children": [
+                {
+                  "text": "Kids Comforters",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 4
+                },
+                {
+                  "text": "Kids Quilts",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 5
+                }
+              ],
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 3
+            }
+          ],
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 10
+        },
+        {
+          "text": "Ashley",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Brand",
+          "id": 7,
+          "children": [
+            {
+              "text": "Ashley Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 8,
+              "children": []
+            },
+            {
+              "text": "2024 Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unique_key_1714995561214",
+      "menu_name": "Header Menu",
+      "status": "Disabled",
+      "Slug": "header-menu",
+      "Menu_type": "Header Menu",
+      "menu_item": [
+        {
+          "text": "Vanities",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 1,
+          "children": []
+        },
+        {
+          "text": "Bedroom Specials",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Pages",
+          "id": 6
+        },
+        {
+          "text": "Kids",
+          "children": [
+            {
+              "text": "Kids Chests",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 2
+            },
+            {
+              "text": "Kids Bedding",
+              "children": [
+                {
+                  "text": "Kids Comforters",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 4
+                },
+                {
+                  "text": "Kids Quilts",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 5
+                }
+              ],
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 3
+            }
+          ],
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 10
+        },
+        {
+          "text": "Ashley",
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Brand",
+          "id": 7,
+          "children": [
+            {
+              "text": "Ashley Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 8,
+              "children": []
+            },
+            {
+              "text": "2024 Group",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Collection group",
+              "id": 9
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "unique_key_1715764974841",
+      "menu_name": "demo",
+      "status": "Enabled",
+      "Slug": "demo-slug",
+      "Menu_type": "Footer Menu",
+      "menu_item": [
+        {
+          "text": "Living Room",
+          "children": [
+            {
+              "text": "Living Room Sets",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 2,
+              "children": [
+                {
+                  "text": "Sofa Sets",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 3
+                }
+              ]
+            },
+            {
+              "text": "Sofas",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 4,
+              "children": []
+            },
+            {
+              "text": "Sleeper Sofas",
+              "target": "_self",
+              "icon": "",
+              "icon_position": "before",
+              "type": "Categories",
+              "id": 6,
+              "children": [
+                {
+                  "text": "Sectionals",
+                  "target": "_self",
+                  "icon": "",
+                  "icon_position": "before",
+                  "type": "Categories",
+                  "id": 5,
+                  "children": [
+                    {
+                      "text": "Coffee Tables",
+                      "target": "_self",
+                      "icon": "",
+                      "icon_position": "before",
+                      "type": "Categories",
+                      "id": 7
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "target": "_self",
+          "icon": "",
+          "icon_position": "before",
+          "type": "Categories",
+          "id": 1
+        }
+      ]
+    }
+  ],
             singleDeleteIndex:null,
             table:{
               headers:[
