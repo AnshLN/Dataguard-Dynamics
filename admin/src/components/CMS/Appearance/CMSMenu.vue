@@ -203,11 +203,11 @@ import formPageDesign from "../../TableContainingPages.vue";
                     title: 'Add New',
                     icon: 'fa fa-plus'
                     },
-                    {
-                    href: '/admin/cms/appearance/menu/managemenu',
-                    title: 'Assign Menu',
-                    icon: 'fa fa-edit'
-                    }
+                    // {
+                    // href: '/admin/cms/appearance/menu/managemenu',
+                    // title: 'Assign Menu',
+                    // icon: 'fa fa-edit'
+                    // }
                 ]
             },
             tableLoading:true,
