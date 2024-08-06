@@ -59,7 +59,7 @@
                                                         </div>
                                                         <span class="link_title">Menu</span>
                                                     </router-link>
-                                                    <router-link :class="{ active: currentRoute.startsWith('/admin/cms/appearance/cmspages') }" to="/admin/cms/appearance/cmspages" class="nav-link border-bottom py-3" title="Pages" @click="closeAccordionAndSidebar">
+                                                    <!-- <router-link :class="{ active: currentRoute.startsWith('/admin/cms/appearance/cmspages') }" to="/admin/cms/appearance/cmspages" class="nav-link border-bottom py-3" title="Pages" @click="closeAccordionAndSidebar">
                                                         <div class="link_icon_container">
                                                             <i class="fa-solid fa-file"></i>
                                                         </div>
@@ -70,13 +70,13 @@
                                                             <i class="fa-solid fa-grip"></i>
                                                         </div>
                                                         <span class="link_title">Widgets</span>
-                                                    </router-link>
+                                                    </router-link> -->
                                                     
                                                 
                                             </div>
                                         </div>
                                         
-                                        <div class="accordion-item">
+                                        <!-- <div class="accordion-item">
                                             <a :class="{ active: currentRoute.startsWith('/admin/cms/cms-marketing') }" href="#CMSMrkttingAcc" class="nav-link border-bottom accordion-button collapsed py-3" title="CMS Marketting" data-bs-toggle="collapse">
                                                 <div class="link_icon_container">
                                                     <i class="fa-solid fa-square-poll-horizontal"></i>
@@ -87,7 +87,7 @@
                                                     <div class="accordion" id="CMSMarketingAccordion">
                                                         <div class="accordion-item">
 
-                                                            <!--  -->
+                                                          
                                                             <a :class="{ active: currentRoute.startsWith('/admin/cms/cms-marketing/integrated-modules') }" href="#Integrated_Modules" class="nav-link border-bottom accordion-button collapsed py-3" title="Integrated Modules" data-bs-toggle="collapse">
                                                                 <div class="link_icon_container">
                                                                     <i class="fa-solid fa-puzzle-piece"></i>
@@ -102,12 +102,12 @@
                                                                     <span class="link_title">Floating Ads</span>
                                                                 </router-link>
                                                             </div>
-                                                            <!--  -->
+                                                            
 
                                                         </div>
                                                         <div class="accordion-item">
 
-                                                            <!--  -->
+                                                            
                                                             <a :class="{ active: currentRoute.startsWith('/admin/cms/cms-marketing/integrated-shopping') }" href="#Integrated_Shopping" class="nav-link border-bottom accordion-button collapsed py-3" title="Integrated Shopping" data-bs-toggle="collapse">
                                                                 <div class="link_icon_container">
                                                                     <i class="fa-solid fa-cart-arrow-down"></i>
@@ -134,12 +134,12 @@
                                                                     <span class="link_title">Google Shopping</span>
                                                                 </router-link>
                                                             </div>
-                                                            <!--  -->
+                                                            
 
                                                         </div>
                                                         <div class="accordion-item">
 
-                                                            <!--  -->
+                                                            
                                                             <a :class="{ active: currentRoute.startsWith('/admin/cms/cms-marketing/renaissance-services') }" href="#Renaissance_Services" class="nav-link border-bottom accordion-button collapsed py-3" title="DataGuard Dynamics" data-bs-toggle="collapse">
                                                                 <div class="link_icon_container">
                                                                     <i class="fa-solid fa-shield-halved"></i>
@@ -208,7 +208,7 @@
                                                                     <span class="link_title">View 360°</span>
                                                                 </router-link>
                                                             </div>
-                                                            <!--  -->
+                                                            
 
                                                         </div>
                                                     </div>
@@ -224,12 +224,12 @@
                                             </a>
                                             <div id="contentAcc" class="accordion-collapse collapse" data-bs-parent="#CMSAccordion">
                                                 
-                                                    <!-- Other Links -->
+                                                  
                                                 
                                             </div>
-                                        </div>
+                                        </div> -->
                                     </div>
-                                    <!--  -->
+                                    
                             </div>
                         </div>
                     

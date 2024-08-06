@@ -20,4 +20,7 @@
   height: 100vh;
   background-color: white;
 }
+.theme-link{
+  text-decoration: underline;
+}
 </style>

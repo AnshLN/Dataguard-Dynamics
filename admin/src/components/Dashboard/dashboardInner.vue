@@ -29,22 +29,22 @@
                         'icon':'fa-solid fa-coins',
                         "title": "CMS"
                     },
-                    {
-                        "path": "/admin/crm",
-                        "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/crm.jpeg",
-                        "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/crm_hover.jpeg",
-                        'check_hover': false,
-                        'icon':'fa-solid fa-users-viewfinder',
-                        "title": "CRM"
-                    },
-                    {
-                        "path": "/admin/pos",
-                        "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/pos.jpeg",
-                        "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/pos_hover.jpeg",
-                        'check_hover': false,
-                        'icon':'fas fa-cloud-upload',
-                        "title": "POS"
-                    }
+                    // {
+                    //     "path": "/admin/crm",
+                    //     "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/crm.jpeg",
+                    //     "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/crm_hover.jpeg",
+                    //     'check_hover': false,
+                    //     'icon':'fa-solid fa-users-viewfinder',
+                    //     "title": "CRM"
+                    // },
+                    // {
+                    //     "path": "/admin/pos",
+                    //     "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/pos.jpeg",
+                    //     "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/pos_hover.jpeg",
+                    //     'check_hover': false,
+                    //     'icon':'fas fa-cloud-upload',
+                    //     "title": "POS"
+                    // }
                 ]
             }
         };

@@ -28,22 +28,22 @@
                         'icon':'fa-solid fa-bars',
                         "title": "Menu"
                     },
-                    {
-                        "path": "/admin/cms/appearance/cmspages",
-                        "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/cmspages.png",
-                        "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/cmspages_hover.png",
-                        'check_hover': false,
-                        'icon':'fa-solid fa-file',
-                        "title": "Pages"
-                    },
-                    {
-                        "path": "/admin/cms/appearance/widgets",
-                        "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/widgets.png",
-                        "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/widgets_hover.png",
-                        'check_hover': false,
-                        'icon':'fa-solid fa-grip',
-                        "title": "Widgets"
-                    }
+                    // {
+                    //     "path": "/admin/cms/appearance/cmspages",
+                    //     "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/cmspages.png",
+                    //     "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/cmspages_hover.png",
+                    //     'check_hover': false,
+                    //     'icon':'fa-solid fa-file',
+                    //     "title": "Pages"
+                    // },
+                    // {
+                    //     "path": "/admin/cms/appearance/widgets",
+                    //     "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/widgets.png",
+                    //     "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/widgets_hover.png",
+                    //     'check_hover': false,
+                    //     'icon':'fa-solid fa-grip',
+                    //     "title": "Widgets"
+                    // }
                 ]
             }
         };

@@ -27,22 +27,22 @@ export default {
                     'icon':'fa-solid fa-palette',
                     "title": "Appearance"
                 },
-                {
-                    "path": "/admin/cms/cms-marketing",
-                    "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/marketing-advertising.png",
-                    "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/marketing-advertising_hover.png",
-                    'check_hover': false,
-                    'icon':'fa-solid fa-square-poll-horizontal',
-                    "title": "CMS Marketing"
-                },
-                {
-                    "path": "/admin/cms/content",
-                    "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/content.png",
-                    "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/content_hover.png",
-                    'check_hover': false,
-                    'icon':'fa-solid fa-folder',
-                    "title": "Content"
-                }
+                // {
+                //     "path": "/admin/cms/cms-marketing",
+                //     "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/marketing-advertising.png",
+                //     "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/marketing-advertising_hover.png",
+                //     'check_hover': false,
+                //     'icon':'fa-solid fa-square-poll-horizontal',
+                //     "title": "CMS Marketing"
+                // },
+                // {
+                //     "path": "/admin/cms/content",
+                //     "src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/content.png",
+                //     "hover_src": "https://cdn.rencdn.com/rencommaster/uploads/dashboardwidget/content_hover.png",
+                //     'check_hover': false,
+                //     'icon':'fa-solid fa-folder',
+                //     "title": "Content"
+                // }
             ]
         }
     };
