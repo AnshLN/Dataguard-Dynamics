@@ -282,12 +282,7 @@ export default {
         return Math.floor(Math.random() * 900000) + 100000;
     }
 
-    this.randomCreatedOTP = generateRandomNumber();
-  
-            const serviceID = 'service_97mukar';
-            const templateID = 'template_atzozju';
-            const userID = 'IGfNvbSX6RcTJz5hv';
-            
+    this.randomCreatedOTP = generateRandomNumber();            
             const templateParams = {
                 User:this.formData.username,
                 to_email: this.formData.email,
